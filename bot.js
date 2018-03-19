@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('message', message => {
      if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("ur mom gay)) {
+     if(message.content.toLowerCase().includes("ur mom gay")) {
                message.channel.send("No u")
   	}
     
