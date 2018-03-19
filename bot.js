@@ -27,7 +27,7 @@ client.on('message', message => {
 
 client.on('message', message => {
      if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("memes)) {
+     if(message.content.toLowerCase().includes("memes")) {
                message.channel.send("It's a dead meme but https://orig00.deviantart.net/e510/f/2016/182/4/7/pidge_meme_pt_3_by_kawaiipidgeychan-da8eyvn.png")
   	}
     
